@@ -12,9 +12,9 @@ var total = (billAmount, serviceRating, groupSize) => {
 };
 
 function calculateTip(name, lastname){
-    var billAmountBeforeTip = document.getElementById("billamt").value;
-    var serviceScore = document.getElementById("serviceQual").value;
-    var sizeOfTable = document.getElementById("peopleamt").value;
+    var billAmountBeforeTip = document.getElementById("billing").value;
+    var serviceScore = document.getElementById("rating").value;
+    var sizeOfTable = document.getElementById("headCount").value;
 
     if (billAmountBeforeTip === '' || serviceScore == 0){
         myalertfun('Please enter values');
